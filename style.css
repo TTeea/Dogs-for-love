@@ -335,6 +335,8 @@ section {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-top: 5px solid #d4a373;
+    display: flex;
+    flex-direction: column;
 }
 
 .puppies_item:hover {
@@ -351,10 +353,19 @@ section {
     transition: transform 0.3s ease;
     border: 4px solid #d4a373;
     display: block;
+    margin-bottom: 15px;
 }
 
 .puppies_item img:hover {
     transform: scale(1.05);
+}
+
+.puppies_item p {
+    font-size: 16px;
+    color: #6b4f3a;
+    line-height: 1.6;
+    font-weight: 500;
+    margin: 0;
 }
 
 /* Food Section */
